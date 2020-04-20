@@ -1,0 +1,24 @@
+Data cleaning steps includes removing of dataset with partition information like unavailable 12th or graduation marks.
+figure 2.. highlight partion algorothms.
+add data cleansing step in diagram 3
+
+key Difference 
+k-mean algorithm minimizes the total squared error where as k-medoids minimizes the sum of dissimilarities between points labeled to be in a cluster.
+K-mean cluster center (known as centroid) may or may not be part of dataset wereas k-medoids chooses its center(medoids) from the data set.
+commputational time complexity
+
+
+Advantages:
+
+It is simple to understand and easy to implement.
+K-Medoid Algorithm is fast and converges in a fixed number of steps.
+PAM is less sensitive to outliers than other partitioning algorithms.
+Disadvantages:
+
+The main disadvantage of K-Medoid algorithms is that it is not suitable for clustering non-spherical (arbitrary shaped) groups of objects. This is because it relies on minimizing the distances between the non-medoid objects and the medoid (the cluster center) – briefly, it uses compactness as clustering criteria instead of connectivity.
+It may obtain different results for different runs on the same dataset because the first k medoids are chosen randomly.
+
+
+Educational data is much prone to anomalies and k-Medoid clustering algoritm provides better result in clustering the data taking account those anomalies.
+Drawback k-Medoid gives different reults but results are very closed enough to neglect .The difference due to outlier if huge and cannot be ignored 
+as can let to complete removal of cluster by kmeam algorithm whereas k-Medoid still able to classify into good and bad
